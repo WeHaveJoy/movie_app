@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container" x-data="info">
+
+    <div id="app">
+      
+      <div class="register">
+        <h2>Register here if you don't have an acount yet:</h2>
+        <br>
+        <span x-text="this.message"></span>
+        <br>
+        <label for="">Please enter your first name: </label>
+        <input x-model="signUp.first_name" type="text" name="firstname" class="firstname">
+        <br>
+        <br>
+
+        <label for="">Please enter your last name: </label>
+        <input x-model="signUp.last_name" type="text" name="lastname" class="lastname">
+        <br>
+        <br>
+
+        <label for="">Please enter your username: </label>
+        <input x-model="signUp.username" type="text" name="register_user" class="register">
+        <br>
+        <br>
+
+        <label>Please enter your password: </label>
+        <input x-model="signUp.password" type="password" name="register_password" class="register">
+        <input type="button" @click="regUser()" name="action" value="Register" class="registerBtn">
+      </div>
+  
+      <br>
+      <br>
+  
+      <div class="login">
+        <h2>Login here if you already have an account:</h2>
+        <label>Please enter your username: </label>
+        <input x-model="signIn.username" type="text" name="login_user" class="login">
+        <br>
+        <br>
+        <label>Please enter your password: </label>
+        <input x-model="signIn.password" type="password" name="login_password" class="login">
+        <input type="button" @click="logUser()" name="action" value="login" class="loginBtn">
+      </div>
+    </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

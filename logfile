@@ -1,0 +1,64 @@
+2022-06-27 12:27:06.464 SAST [47895] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:27:06.465 SAST [47895] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:27:06.465 SAST [47895] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:27:06.466 SAST [47895] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:27:06.466 SAST [47895] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:27:06.466 SAST [47895] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:27:06.466 SAST [47895] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:27:06.468 SAST [47895] LOG:  database system is shut down
+2022-06-27 12:28:31.845 SAST [48249] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:28:31.851 SAST [48249] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:28:31.851 SAST [48249] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:28:31.852 SAST [48249] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:28:31.852 SAST [48249] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:28:31.852 SAST [48249] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:28:31.852 SAST [48249] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:28:31.855 SAST [48249] LOG:  database system is shut down
+2022-06-27 12:29:10.014 SAST [48271] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:29:10.017 SAST [48271] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:29:10.017 SAST [48271] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:29:10.018 SAST [48271] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:29:10.018 SAST [48271] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:29:10.018 SAST [48271] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:29:10.018 SAST [48271] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:29:10.019 SAST [48271] LOG:  database system is shut down
+2022-06-27 12:31:20.770 SAST [48366] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:31:20.773 SAST [48366] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:31:20.773 SAST [48366] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:31:20.773 SAST [48366] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:31:20.773 SAST [48366] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:31:20.773 SAST [48366] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:31:20.773 SAST [48366] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:31:20.776 SAST [48366] LOG:  database system is shut down
+2022-06-27 12:34:32.116 SAST [48767] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:34:32.120 SAST [48767] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:34:32.120 SAST [48767] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:34:32.120 SAST [48767] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:34:32.120 SAST [48767] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:34:32.120 SAST [48767] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:34:32.120 SAST [48767] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:34:32.122 SAST [48767] LOG:  database system is shut down
+2022-06-27 12:35:01.269 SAST [48784] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:35:01.273 SAST [48784] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:35:01.273 SAST [48784] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:35:01.273 SAST [48784] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:35:01.273 SAST [48784] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:35:01.273 SAST [48784] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:35:01.273 SAST [48784] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:35:01.275 SAST [48784] LOG:  database system is shut down
+2022-06-27 12:56:15.387 SAST [3326] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:56:15.390 SAST [3326] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:56:15.390 SAST [3326] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:56:15.390 SAST [3326] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:56:15.390 SAST [3326] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:56:15.390 SAST [3326] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:56:15.390 SAST [3326] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:56:15.391 SAST [3326] LOG:  database system is shut down
+2022-06-27 12:56:21.407 SAST [3333] LOG:  starting PostgreSQL 14.4 on x86_64-apple-darwin21.5.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2.5), 64-bit
+2022-06-27 12:56:21.408 SAST [3333] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-06-27 12:56:21.408 SAST [3333] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:56:21.408 SAST [3333] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-06-27 12:56:21.408 SAST [3333] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-06-27 12:56:21.408 SAST [3333] WARNING:  could not create listen socket for "localhost"
+2022-06-27 12:56:21.408 SAST [3333] FATAL:  could not create any TCP/IP sockets
+2022-06-27 12:56:21.409 SAST [3333] LOG:  database system is shut down
