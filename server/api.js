@@ -1,8 +1,8 @@
 const jwt = require(`jsonwebtoken`);
 const bcrypt = require("bcrypt");
-const saltRounds = 10;
-const myPlaintextPassword = "s0//P4$$w0rD";
-const someOtherPlaintextPassword = "not_bacon";
+// const saltRounds = 10;
+// const myPlaintextPassword = "s0//P4$$w0rD";
+// const someOtherPlaintextPassword = "not_bacon";
 
 module.exports = (app, db) => {
 
@@ -23,7 +23,7 @@ module.exports = (app, db) => {
       console.log(findUser, 'find User func');
 
       if (findUser != null) {
-        throw Error(`User already exists`);
+        throw Error(`User already exists!`);
       }
 
       console.log('hashing password');
@@ -37,7 +37,7 @@ module.exports = (app, db) => {
 
       console.log('done insert');
       res.status(200).json({
-        messatge: "User created",
+        messatge: "User created!",
       });
 
     } catch (error) {
@@ -50,7 +50,7 @@ module.exports = (app, db) => {
 
   app.post("/api/logIn", async (req, res) => {
     try {
-      const { first_name, last_name, username, password } = req.body;
+      const { username, password } = req.body;
 
       const findUser = await db.oneOrNone(
         `SELECT * FROM user_info WHERE username= $1`,
@@ -71,7 +71,7 @@ module.exports = (app, db) => {
       let token = jwt.sign(findUser, `secretKey`, { expiresIn: `24h` });
 
       res.status(200).json({
-        message: "You are logged in",
+        message: "You are loged in",
         token,
         user: findUser,
       });
@@ -84,7 +84,7 @@ module.exports = (app, db) => {
 
   app.post("/api/playlist", async (req, res) => {
     try {
-      const { user_id, movie_list, username } = req.body;
+      const { movie_list, username } = req.body;
 
       const findMovie = await db.oneOrNone(`SELECT * FROM user_info WHERE username =$1`,
         [username]);
@@ -95,7 +95,7 @@ module.exports = (app, db) => {
       );
 
       res.status(200).json({
-        message: "movie added",
+        message: "Movie added!",
         user: findMovie,
       });
     } catch (error) {
