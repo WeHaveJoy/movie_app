@@ -6,3 +6,26 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+body{
+  background-color: black;
+  color: yellow;
+}
+
+h2,label{
+  color: yellow;
+}
+
+button,input[type=button]{
+  color: black;
+  background-color: darkcyan;
+  border-radius: 14px;
+  font-size: 20px;
+  border: none;
+  padding: 12px 20px;
+  
+}
+button:hover{
+  background-color: darkorchid;
+  color: darkseagreen;
+}

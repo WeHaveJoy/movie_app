@@ -41,7 +41,7 @@
         <br>
         <label>Please enter your password: </label>
         <input x-model="signUp.password" type="password" name="register_password" class="register">
-        <input type="button" @click="regUser()" name="action" value="Register" class="registerBtn">
+        <input type="button" @click="regUser()" name="action" value="Register" class="button">
       </div>
       <br>
       <br>
@@ -58,20 +58,20 @@
         <br>
         <label>Please enter your password: </label>
         <input x-model="signIn.password" type="password" name="login_password" class="login">
-        <input type="button" @click="logUser()" name="action" value="login" class="loginBtn">
+        <input type="button" @click="logUser()" name="action" value="login" class="button">
       </div>
     </div>
     <div class="movie" x-show="show_movies">
 
       <h2> Your favourite movies:</h2>
       <input type="search" x-model="film">
-      <button @click="playlist_data()">Movies</button>
+      <button @click="playlist_data()"> Show Movies</button>
       <br>
       <template x-for="movie in movies">
         <div>
           <span x-text="movie.title"></span>
           <br>
-          <span x-text="movie.overview"></span>
+          <!-- <span x-text="movie.overview"></span> -->
           <br>
           <img x-bind:src="`https://image.tmdb.org/t/p/w500${movie.poster_path}`">
           <button @click=" loggedUser()">Add movie</button>

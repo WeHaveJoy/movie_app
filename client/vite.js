@@ -1,4 +1,5 @@
 import axios from 'axios'
+
 export default function movies() {
 
     return {
@@ -61,9 +62,9 @@ export default function movies() {
                     var { token, user } = qApp.data;
                     console.log(qApp.data);
                     if (!token) {
-                      return false
+                        return false
                     }
-                    
+
                     this.user = user;
                     localStorage.setItem('user', JSON.stringify(user));
                     this.token = JSON.stringify(token)
@@ -92,10 +93,10 @@ export default function movies() {
         },
 
         loggedUser(list) {
-            const user_name= JSON.parse(localStorage.getItem('user'))
+            const user_name = JSON.parse(localStorage.getItem('user'))
             axios
-                .post('http://localhost:4000/api/playlist', list, 
-                username = user_name        
+                .post('http://localhost:4000/api/playlist', list,
+                    username = user_name
                 )
                 .then(results => {
                     console.log(results.data);
@@ -106,7 +107,7 @@ export default function movies() {
         },
 
         playlist_data() {
-          
+
             axios
                 .get(`https://api.themoviedb.org/3/search/movie?api_key=0abc18f613656472c7842cc310309b21&query=${this.film}`)
                 .then(results => {
